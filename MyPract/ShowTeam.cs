@@ -19,17 +19,18 @@ namespace MyPract
         {
             InitializeComponent();
             int count = 0;
-            
+
             foreach (var item in _eFContext.Teams)
             {
                 foreach (var item2 in _eFContext2.Players)
                 {
-                    if(item2.TeamId==item.Id)
-                    { count++; }
+                    if (item2.TeamId == item.Id)
+                    {
+                        count++;
+                    }
                 }
                 dgvTeam.Rows.Add(item.Id, item.Name, count);
             }
         }
-
     }
 }

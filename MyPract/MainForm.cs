@@ -28,7 +28,7 @@ namespace MyPract
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AddCommandForm dlg = new AddCommandForm();
+            AddCommandForm dlg = new AddCommandForm(_context);
             dlg.ShowDialog();
         }
 
