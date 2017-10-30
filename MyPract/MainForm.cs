@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyPract.Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,8 +11,10 @@ using System.Windows.Forms;
 
 namespace MyPract
 {
+    
     public partial class MainForm : Form
     {
+        EFContext _context = new EFContext();
         public MainForm()
         {
             InitializeComponent();
@@ -31,7 +34,7 @@ namespace MyPract
 
         private void button2_Click(object sender, EventArgs e)
         {
-            AddPlayerForm dlg = new AddPlayerForm();
+            AddPlayerForm dlg = new AddPlayerForm(_context);
             dlg.ShowDialog();
         }
 

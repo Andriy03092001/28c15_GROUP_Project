@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbComands = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnAdd
             // 
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(143, 135);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 27);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Добавити гравця";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAdd.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnAdd.Location = new System.Drawing.Point(143, 135);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(142, 27);
+            this.btnAdd.TabIndex = 8;
+            this.btnAdd.Text = "Добавити гравця";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -55,13 +56,13 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Назва гравця:";
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(15, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(410, 26);
-            this.textBox1.TabIndex = 6;
+            this.txtName.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtName.Location = new System.Drawing.Point(15, 30);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(410, 26);
+            this.txtName.TabIndex = 6;
             // 
             // label2
             // 
@@ -73,24 +74,24 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Назва команди:";
             // 
-            // comboBox1
+            // cbComands
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(15, 93);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(410, 21);
-            this.comboBox1.TabIndex = 11;
+            this.cbComands.FormattingEnabled = true;
+            this.cbComands.Location = new System.Drawing.Point(15, 93);
+            this.cbComands.Name = "cbComands";
+            this.cbComands.Size = new System.Drawing.Size(410, 21);
+            this.cbComands.TabIndex = 11;
             // 
             // AddPlayerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 174);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbComands);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtName);
             this.Name = "AddPlayerForm";
             this.Text = "AddPlayerForm";
             this.ResumeLayout(false);
@@ -100,10 +101,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbComands;
     }
 }
