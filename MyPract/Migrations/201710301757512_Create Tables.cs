@@ -3,7 +3,7 @@ namespace MyPract.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class roflan : DbMigration
+    public partial class CreateTables : DbMigration
     {
         public override void Up()
         {
@@ -15,6 +15,7 @@ namespace MyPract.Migrations
                         Name = c.String(maxLength: 255),
                         Team1Id = c.Int(nullable: false),
                         Team2Id = c.Int(nullable: false),
+                        DateOfGame = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Teams", t => t.Team1Id, cascadeDelete: true)

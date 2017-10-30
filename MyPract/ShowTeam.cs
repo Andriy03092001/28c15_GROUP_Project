@@ -13,6 +13,8 @@ namespace MyPract
     public partial class ShowTeam : Form
     {
         public Entity.EFContext _eFContext = new Entity.EFContext();
+        public Entity.EFContext _eFContext2 = new Entity.EFContext();
+
         public ShowTeam()
         {
             InitializeComponent();
@@ -20,7 +22,7 @@ namespace MyPract
             
             foreach (var item in _eFContext.Teams)
             {
-                foreach (var item2 in _eFContext.Players)
+                foreach (var item2 in _eFContext2.Players)
                 {
                     if(item2.TeamId==item.Id)
                     { count++; }

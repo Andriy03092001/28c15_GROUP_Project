@@ -14,6 +14,5 @@ namespace MyPract.Entity
         public int Id { get; set; }
         [StringLength(maximumLength: 255)]
         public string Name { get; set; }
-
     }
 }

@@ -13,7 +13,6 @@ namespace MyPract.Entity
         [Key, ForeignKey("Team")]
         public int Id { get; set; }
 
-
         public Team Team { get; set; }
     }
 }

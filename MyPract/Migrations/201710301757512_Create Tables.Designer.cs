@@ -7,13 +7,13 @@ namespace MyPract.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class roflan : IMigrationMetadata
+    public sealed partial class CreateTables : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(roflan));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateTables));
         
         string IMigrationMetadata.Id
         {
-            get { return "201710301530005_roflan"; }
+            get { return "201710301757512_Create Tables"; }
         }
         
         string IMigrationMetadata.Source
