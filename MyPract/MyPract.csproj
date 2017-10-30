@@ -57,6 +57,12 @@
     <Compile Include="AddGamesForm.Designer.cs">
       <DependentUpon>AddGamesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddPlayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPlayerForm.Designer.cs">
+      <DependentUpon>AddPlayerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddGamesForm.resx">
       <DependentUpon>AddGamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPlayerForm.resx">
+      <DependentUpon>AddPlayerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
