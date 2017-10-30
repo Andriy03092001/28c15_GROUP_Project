@@ -12,9 +12,22 @@ namespace MyPract
 {
     public partial class ShowTeam : Form
     {
+        public Entity.EFContext _eFContext = new Entity.EFContext();
         public ShowTeam()
         {
             InitializeComponent();
+            int count = 0;
+            
+            foreach (var item in _eFContext.Teams)
+            {
+                foreach (var item2 in _eFContext.Players)
+                {
+                    if(item2.TeamId==item.Id)
+                    { count++; }
+                }
+                dgvTeam.Rows.Add(item.Id, item.Name, count);
+            }
         }
+
     }
 }
