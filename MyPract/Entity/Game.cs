@@ -22,5 +22,7 @@ namespace MyPract.Entity
         [ForeignKey("team2")]
         public int Team2Id { get; set; }
         public SecondTeam team2 { get; set; }
+
+        public DateTime DateOfGame { get; set; }
     }
 }

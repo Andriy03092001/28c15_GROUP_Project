@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyPract.Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace MyPract
         public AddGamesForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            EFContext context = new EFContext();
+
+            
         }
     }
 }
