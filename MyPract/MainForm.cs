@@ -22,7 +22,7 @@ namespace MyPract
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AddGamesForm dlg = new AddGamesForm();
+            AddGamesForm dlg = new AddGamesForm(_context);
             dlg.ShowDialog();
         }
 
