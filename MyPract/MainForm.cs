@@ -16,5 +16,41 @@ namespace MyPract
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddGamesForm dlg = new AddGamesForm();
+            dlg.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AddCommandForm dlg = new AddCommandForm();
+            dlg.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddPlayerForm dlg = new AddPlayerForm();
+            dlg.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ShowGame dlg = new ShowGame();
+            dlg.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ShowTeam dlg = new ShowTeam();
+            dlg.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ShowPlayer dlg = new ShowPlayer();
+            dlg.ShowDialog();
+        }
     }
 }
