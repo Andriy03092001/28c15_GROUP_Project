@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace MyPract.Entity
 {
-    public class Team
+    public class SecondTeam
     {
         [Key]
         public int Id { get; set; }
-        [StringLength(maximumLength: 255)]
-        public string Name { get; set; }
-
+        [Required,ForeignKey("team")]
+        public int TeamId { get; set; }
+        public Team team { get; set; }
     }
 }

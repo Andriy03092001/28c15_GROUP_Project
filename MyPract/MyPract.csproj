@@ -73,6 +73,7 @@
     <Compile Include="Entity\EFContext.cs" />
     <Compile Include="Entity\Game.cs" />
     <Compile Include="Entity\Player.cs" />
+    <Compile Include="Entity\SecondTeam.cs" />
     <Compile Include="Entity\Team.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
