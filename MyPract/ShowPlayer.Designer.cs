@@ -37,6 +37,7 @@
             // 
             // dgvPlayer
             // 
+            this.dgvPlayer.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.dgvPlayer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPlayer.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -69,6 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(506, 393);
             this.Controls.Add(this.dgvPlayer);
             this.Name = "ShowPlayer";

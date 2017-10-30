@@ -37,6 +37,7 @@
             // 
             // dgvTeam
             // 
+            this.dgvTeam.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.dgvTeam.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTeam.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colId,
@@ -68,7 +69,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(590, 394);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(545, 322);
             this.Controls.Add(this.dgvTeam);
             this.Name = "ShowTeam";
             this.Text = "ShowTeam";

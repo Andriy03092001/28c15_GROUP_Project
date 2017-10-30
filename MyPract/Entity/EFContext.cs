@@ -11,7 +11,6 @@ namespace MyPract.Entity
     {
         public EFContext():base("Connection")
         {
-
         }
         public DbSet<Game> Games{ get; set; }
         public DbSet<Player> Players { get; set; }

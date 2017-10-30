@@ -39,6 +39,7 @@
             // 
             // dgvGame
             // 
+            this.dgvGame.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.dgvGame.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGame.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.фыв,
@@ -85,6 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(628, 393);
             this.Controls.Add(this.dgvGame);
             this.Name = "ShowGame";
