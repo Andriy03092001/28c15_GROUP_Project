@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCommandForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCommandForm.Designer.cs">
+      <DependentUpon>AddCommandForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddGamesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCommandForm.resx">
+      <DependentUpon>AddCommandForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddGamesForm.resx">
       <DependentUpon>AddGamesForm.cs</DependentUpon>
     </EmbeddedResource>
