@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvTeam = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTeam)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvTeam
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(482, 369);
-            this.dataGridView1.TabIndex = 1;
+            this.dgvTeam.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTeam.Location = new System.Drawing.Point(12, 12);
+            this.dgvTeam.Name = "dgvTeam";
+            this.dgvTeam.Size = new System.Drawing.Size(482, 369);
+            this.dgvTeam.TabIndex = 1;
             // 
             // ShowTeam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 393);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvTeam);
             this.Name = "ShowTeam";
             this.Text = "ShowTeam";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTeam)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvTeam;
     }
 }

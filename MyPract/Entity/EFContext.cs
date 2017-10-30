@@ -16,5 +16,6 @@ namespace MyPract.Entity
         public DbSet<Game> Games{ get; set; }
         public DbSet<Player> Players { get; set; }
         public DbSet<Team> Teams { get; set; }
+        public DbSet<SecondTeam> SecondTeam { get; set; }
     }
 }
