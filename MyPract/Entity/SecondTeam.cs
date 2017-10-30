@@ -10,10 +10,10 @@ namespace MyPract.Entity
 {
     public class SecondTeam
     {
-        [Key]
+        [Key, ForeignKey("Team")]
         public int Id { get; set; }
-        [Required,ForeignKey("team")]
-        public int TeamId { get; set; }
-        public Team team { get; set; }
+
+
+        public Team Team { get; set; }
     }
 }

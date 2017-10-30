@@ -15,9 +15,8 @@ namespace MyPract.Entity
         [StringLength(maximumLength:255)]
         public string Name { get; set; }
 
-        
+        [ForeignKey("Team")]
         public int TeamId { get; set; }
-        [ForeignKey("TeamId")]
-        public Team team { get; set; }
+        public Team Team { get; set; }
     }
 }
