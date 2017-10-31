@@ -39,7 +39,7 @@ namespace MyPract
             };
             _context.Players.Add(Player);
             _context.SaveChanges();
-            MessageBox.Show("Гравець успішно добавлена.");
+            MessageBox.Show("Гравець успішно добавлений.");
             this.Close();
         }
     }

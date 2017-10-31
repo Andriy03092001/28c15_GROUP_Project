@@ -30,6 +30,7 @@ namespace MyPract
                     }
                 }
                 dgvTeam.Rows.Add(item.Id, item.Name, count);
+                count = 0;
             }
         }
     }
