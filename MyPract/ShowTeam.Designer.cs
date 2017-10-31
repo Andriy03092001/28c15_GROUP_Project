@@ -73,6 +73,7 @@
             this.ClientSize = new System.Drawing.Size(545, 322);
             this.Controls.Add(this.dgvTeam);
             this.Name = "ShowTeam";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ShowTeam";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeam)).EndInit();
             this.ResumeLayout(false);

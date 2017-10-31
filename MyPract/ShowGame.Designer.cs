@@ -90,6 +90,7 @@
             this.ClientSize = new System.Drawing.Size(628, 393);
             this.Controls.Add(this.dgvGame);
             this.Name = "ShowGame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ShowGame";
             ((System.ComponentModel.ISupportInitialize)(this.dgvGame)).EndInit();
             this.ResumeLayout(false);

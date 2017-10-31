@@ -74,6 +74,7 @@
             this.ClientSize = new System.Drawing.Size(506, 393);
             this.Controls.Add(this.dgvPlayer);
             this.Name = "ShowPlayer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ShowPlayer";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlayer)).EndInit();
             this.ResumeLayout(false);

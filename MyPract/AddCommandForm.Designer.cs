@@ -72,6 +72,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "AddCommandForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddCommandForm";
             this.ResumeLayout(false);
             this.PerformLayout();

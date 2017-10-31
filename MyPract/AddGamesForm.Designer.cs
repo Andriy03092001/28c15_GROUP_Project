@@ -149,6 +149,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtName);
             this.Name = "AddGamesForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddGamesForm";
             this.ResumeLayout(false);
             this.PerformLayout();

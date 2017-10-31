@@ -153,7 +153,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(184, 26);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Basketboll Manager";
+            this.label1.Text = "Basketball Manager";
             // 
             // MainForm
             // 
@@ -166,7 +166,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
-            this.Text = "BasketbolManager";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "BasketballManager";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

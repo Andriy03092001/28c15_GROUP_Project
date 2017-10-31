@@ -94,6 +94,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtName);
             this.Name = "AddPlayerForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddPlayerForm";
             this.ResumeLayout(false);
             this.PerformLayout();
