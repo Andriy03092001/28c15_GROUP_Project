@@ -52,7 +52,7 @@ namespace MyPract
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ShowPlayer dlg = new ShowPlayer();
+            ShowPlayer dlg = new ShowPlayer(_context);
             dlg.ShowDialog();
         }
     }

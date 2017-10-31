@@ -63,7 +63,7 @@
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "Id Team";
+            this.Column3.HeaderText = "Team";
             this.Column3.Name = "Column3";
             // 
             // ShowPlayer
