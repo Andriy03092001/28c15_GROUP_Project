@@ -91,6 +91,7 @@
             // 
             // cbFirstTeam
             // 
+            this.cbFirstTeam.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFirstTeam.FormattingEnabled = true;
             this.cbFirstTeam.Location = new System.Drawing.Point(91, 85);
             this.cbFirstTeam.Name = "cbFirstTeam";
@@ -119,6 +120,7 @@
             // 
             // cbSecondTeam
             // 
+            this.cbSecondTeam.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSecondTeam.FormattingEnabled = true;
             this.cbSecondTeam.Location = new System.Drawing.Point(91, 112);
             this.cbSecondTeam.Name = "cbSecondTeam";

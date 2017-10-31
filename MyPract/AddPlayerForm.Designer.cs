@@ -76,6 +76,7 @@
             // 
             // cbComands
             // 
+            this.cbComands.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbComands.FormattingEnabled = true;
             this.cbComands.Location = new System.Drawing.Point(15, 93);
             this.cbComands.Name = "cbComands";
