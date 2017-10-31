@@ -67,13 +67,13 @@
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "Id First Team";
+            this.Column2.HeaderText = "First Team";
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "Id Second Team";
+            this.Column3.HeaderText = "Second Team";
             this.Column3.Name = "Column3";
             // 
             // Column4

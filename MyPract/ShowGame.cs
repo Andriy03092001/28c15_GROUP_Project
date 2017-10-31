@@ -8,18 +8,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Entity;
 
 namespace MyPract
 {
     public partial class ShowGame : Form
     {
-        EFContext context = new EFContext();
-        public ShowGame()
+        EFContext _context=new EFContext();
+        public ShowGame(EFContext eFContext)
         {
             InitializeComponent();
-            foreach (var item in context.Games)
+            var Games = _context
+                .Games
+                .Include(t=>t.team1)
+                .Include(t => t.team2)
+                .Include(t=>t.team2.Team)
+                .ToList();
+            foreach (var item in Games)
             {
-                dgvGame.Rows.Add(item.Id,item.Name, item.Team1Id, item.Team2Id,item.DateOfGame);
+                dgvGame.Rows.Add(item.Id,item.Name, item.team1.Name, item.team2.Team.Name,item.DateOfGame);
             }
         }
     }

@@ -28,6 +28,9 @@ namespace MyPract
             };
             _context.Teams.Add(NEwTeam);
             _context.SaveChanges();
+            MessageBox.Show("Команда успішно добавлена.");
+            this.Close();
+
         }
     }
 }

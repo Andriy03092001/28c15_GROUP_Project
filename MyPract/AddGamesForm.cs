@@ -67,9 +67,11 @@ namespace MyPract
                 _efcontext.SaveChanges();
                 ts.Complete();
             }
+            MessageBox.Show("Гра успішно добавлена.");
+            this.Close();
 
 
-            
+
         }
     }
 }

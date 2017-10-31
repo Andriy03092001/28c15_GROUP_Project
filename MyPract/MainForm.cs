@@ -40,7 +40,7 @@ namespace MyPract
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ShowGame dlg = new ShowGame();
+            ShowGame dlg = new ShowGame(_context);
             dlg.ShowDialog();
         }
 

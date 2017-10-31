@@ -52,9 +52,9 @@
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 18);
+            this.label1.Size = new System.Drawing.Size(89, 18);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Назва гравця:";
+            this.label1.Text = "Ім`я гравця:";
             // 
             // txtName
             // 
